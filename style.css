@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 10px 10px;
 }
 h1{
     font-size: 50px;
@@ -10,14 +11,16 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 200px;
 
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 150px 200px;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
+    padding: 150px 200px;
     
 }
 .link-button{
@@ -31,4 +34,10 @@ section{
 .top-banner{
     background-image: url(online-eidit/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(online-eidit/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
 }
